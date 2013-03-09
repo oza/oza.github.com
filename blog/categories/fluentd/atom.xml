@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Distributed Systems blog]]></title>
-  <link href="http://oza.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: fluentd | Distributed Systems blog]]></title>
+  <link href="http://oza.github.com/blog/categories/fluentd/atom.xml" rel="self"/>
   <link href="http://oza.github.com/"/>
   <updated>2013-03-10T06:01:51+09:00</updated>
   <id>http://oza.github.com/</id>
@@ -67,7 +67,7 @@ $ sudo /etc/init.d/td-agent restart
 
 <h2>Using fluent-logger-scala</h2>
 
-<p>First, please add the following lines to build.sbt. The logger&#8217;s revision information can be found in <a href="https://github.com/oza/fluent-logger-scala/blob/master/ChangeLog">ChangeLog</a>.</p>
+<p>First, please add the following lines to build.sbt. The logger's revision information can be found in <a href="https://github.com/oza/fluent-logger-scala/blob/master/ChangeLog">ChangeLog</a>.</p>
 
 <pre><code>resolvers += "Apache Maven Central Repository" at "http://repo.maven.apache.org/maven2/"
 
@@ -113,15 +113,6 @@ $ sbt
 <p>The logs should be output to <code>/var/log/td-agent/td-agent.log</code> or stdout of the Fluentd process via the <a href="http://docs.fluentd.org/articles/out_stdout">stdout Output plugin</a>.
 Any comments and feedbacks to <a href="http://github.com/oza/fluent-logger-scala">fluent-logger-scala</a> is welcome!
 Please let me know via <a href="https://github.com/oza/fluent-logger-scala/issues/new">github issues</a> or <a href="https://twitter.com/oza_x86_64">twitter</a>!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Octpress!]]></title>
-    <link href="http://oza.github.com/blog/2013/03/10/hello-octpress/"/>
-    <updated>2013-03-10T03:13:00+09:00</updated>
-    <id>http://oza.github.com/blog/2013/03/10/hello-octpress</id>
-    <content type="html"><![CDATA[<p>Hello!</p>
 ]]></content>
   </entry>
   
